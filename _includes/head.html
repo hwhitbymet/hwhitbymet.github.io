@@ -2,5 +2,15 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/assets/css/style.css">
-  <!-- Add any additional head content here -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
