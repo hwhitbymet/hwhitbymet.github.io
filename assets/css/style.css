@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 20px 0;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-link {
+  font-size: 20px;
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+.post-meta {
+  color: #828282;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.page-content {
+  padding: 20px 0;
+}
+
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 20px 0;
+  margin-top: 40px;
+  color: #828282;
+}
